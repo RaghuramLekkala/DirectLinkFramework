@@ -3,16 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C764DA38D83058126B0F916 /* Pods_DirectLinkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B0B81653A7FC0BD4A7A72D /* Pods_DirectLinkFramework.framework */; };
 		899F10DF287D418200EC0AE9 /* DirectLinkFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 899F10DD287D418200EC0AE9 /* DirectLinkFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		899F1104287D41EF00EC0AE9 /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F10E7287D41EF00EC0AE9 /* SocketIOManager.swift */; };
 		899F1105287D41EF00EC0AE9 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F10E8287D41EF00EC0AE9 /* Message.swift */; };
 		899F1106287D41EF00EC0AE9 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F10E9287D41EF00EC0AE9 /* Networking.swift */; };
 		899F1107287D41EF00EC0AE9 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F10EA287D41EF00EC0AE9 /* ApiManager.swift */; };
-		899F1108287D41EF00EC0AE9 /* MessagesCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F10EB287D41EF00EC0AE9 /* MessagesCollectionViewFlowLayout.swift */; };
+		899F1108287D41EF00EC0AE9 /* MyCustomMessagesFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F10EB287D41EF00EC0AE9 /* MyCustomMessagesFlowLayout.swift */; };
 		899F1109287D41EF00EC0AE9 /* APIDataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F10EC287D41EF00EC0AE9 /* APIDataTypes.swift */; };
 		899F110A287D41EF00EC0AE9 /* MySocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F10ED287D41EF00EC0AE9 /* MySocketManager.swift */; };
 		899F110B287D41EF00EC0AE9 /* CustomMessageSizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F10EE287D41EF00EC0AE9 /* CustomMessageSizeCalculator.swift */; };
@@ -34,11 +35,9 @@
 		899F111B287D41EF00EC0AE9 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F1101287D41EF00EC0AE9 /* ChatViewController.swift */; };
 		899F111C287D41EF00EC0AE9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F1102287D41EF00EC0AE9 /* HomeViewController.swift */; };
 		899F111D287D41EF00EC0AE9 /* AlternativeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F1103287D41EF00EC0AE9 /* AlternativeViewController.swift */; };
-		A5064FE9F5CE6731F5602D7F /* Pods_DirectLinkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4284D57B9585D6309263AC3A /* Pods_DirectLinkFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4284D57B9585D6309263AC3A /* Pods_DirectLinkFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DirectLinkFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		899F10DA287D418200EC0AE9 /* DirectLinkFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DirectLinkFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		899F10DD287D418200EC0AE9 /* DirectLinkFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DirectLinkFramework.h; sourceTree = "<group>"; };
 		899F10DE287D418200EC0AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,7 +45,7 @@
 		899F10E8287D41EF00EC0AE9 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		899F10E9287D41EF00EC0AE9 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		899F10EA287D41EF00EC0AE9 /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
-		899F10EB287D41EF00EC0AE9 /* MessagesCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		899F10EB287D41EF00EC0AE9 /* MyCustomMessagesFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomMessagesFlowLayout.swift; sourceTree = "<group>"; };
 		899F10EC287D41EF00EC0AE9 /* APIDataTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIDataTypes.swift; sourceTree = "<group>"; };
 		899F10ED287D41EF00EC0AE9 /* MySocketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySocketManager.swift; sourceTree = "<group>"; };
 		899F10EE287D41EF00EC0AE9 /* CustomMessageSizeCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMessageSizeCalculator.swift; sourceTree = "<group>"; };
@@ -70,6 +69,7 @@
 		899F1103287D41EF00EC0AE9 /* AlternativeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlternativeViewController.swift; sourceTree = "<group>"; };
 		9807241C225F784C9FC03FEE /* Pods-DirectLinkFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirectLinkFramework.release.xcconfig"; path = "Target Support Files/Pods-DirectLinkFramework/Pods-DirectLinkFramework.release.xcconfig"; sourceTree = "<group>"; };
 		A8308455B7E9E015514FC354 /* Pods-DirectLinkFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirectLinkFramework.debug.xcconfig"; path = "Target Support Files/Pods-DirectLinkFramework/Pods-DirectLinkFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		C9B0B81653A7FC0BD4A7A72D /* Pods_DirectLinkFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DirectLinkFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5064FE9F5CE6731F5602D7F /* Pods_DirectLinkFramework.framework in Frameworks */,
+				3C764DA38D83058126B0F916 /* Pods_DirectLinkFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,7 +123,7 @@
 				899F10E8287D41EF00EC0AE9 /* Message.swift */,
 				899F10E9287D41EF00EC0AE9 /* Networking.swift */,
 				899F10EA287D41EF00EC0AE9 /* ApiManager.swift */,
-				899F10EB287D41EF00EC0AE9 /* MessagesCollectionViewFlowLayout.swift */,
+				899F10EB287D41EF00EC0AE9 /* MyCustomMessagesFlowLayout.swift */,
 				899F10EC287D41EF00EC0AE9 /* APIDataTypes.swift */,
 				899F10ED287D41EF00EC0AE9 /* MySocketManager.swift */,
 				899F10EE287D41EF00EC0AE9 /* CustomMessageSizeCalculator.swift */,
@@ -167,14 +167,13 @@
 				A8308455B7E9E015514FC354 /* Pods-DirectLinkFramework.debug.xcconfig */,
 				9807241C225F784C9FC03FEE /* Pods-DirectLinkFramework.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		E21355398B72B95A54C85809 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4284D57B9585D6309263AC3A /* Pods_DirectLinkFramework.framework */,
+				C9B0B81653A7FC0BD4A7A72D /* Pods_DirectLinkFramework.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -295,7 +294,7 @@
 				899F1119287D41EF00EC0AE9 /* MessageCell.swift in Sources */,
 				899F1114287D41EF00EC0AE9 /* QuickReplyTableViewCell.swift in Sources */,
 				899F1106287D41EF00EC0AE9 /* Networking.swift in Sources */,
-				899F1108287D41EF00EC0AE9 /* MessagesCollectionViewFlowLayout.swift in Sources */,
+				899F1108287D41EF00EC0AE9 /* MyCustomMessagesFlowLayout.swift in Sources */,
 				899F111C287D41EF00EC0AE9 /* HomeViewController.swift in Sources */,
 				899F110B287D41EF00EC0AE9 /* CustomMessageSizeCalculator.swift in Sources */,
 				899F1104287D41EF00EC0AE9 /* SocketIOManager.swift in Sources */,

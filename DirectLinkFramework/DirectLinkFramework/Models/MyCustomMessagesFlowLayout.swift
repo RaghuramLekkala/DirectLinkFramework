@@ -1,5 +1,5 @@
 //
-//  MessagesCollectionViewFlowLayout.swift
+//  MyCustomMessagesFlowLayout.swift
 //  IOSChatBot
 //
 //  Created by Raghuram on 10/06/22.

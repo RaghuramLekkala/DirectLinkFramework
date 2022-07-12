@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "RAMraghuram" => "raghuram.lekkala.popcornapps@gmail.com" }
   spec.platform     = :ios, "13.0"
   spec.source       = { :git => "https://github.com/RaghuramLekkala/DirectLinkFramework.git", :tag => "#{spec.version}" }
-  spec.source_files  = "DirectLinkFramework/**/*.{swift}"
+  spec.source_files = 'DirectLinkFramework/**/*.{swift}'
   spec.framework  = "UIKit"
   spec.dependency  'MessageKit', '~> 3.8.0'
   spec.dependency 'IQKeyboardManagerSwift', '~> 6.5.10'
