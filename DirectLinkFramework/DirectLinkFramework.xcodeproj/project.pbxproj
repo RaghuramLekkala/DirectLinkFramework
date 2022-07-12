@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,10 +13,8 @@
 		899F1105287D41EF00EC0AE9 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F10E8287D41EF00EC0AE9 /* Message.swift */; };
 		899F1106287D41EF00EC0AE9 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F10E9287D41EF00EC0AE9 /* Networking.swift */; };
 		899F1107287D41EF00EC0AE9 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F10EA287D41EF00EC0AE9 /* ApiManager.swift */; };
-		899F1108287D41EF00EC0AE9 /* MyCustomMessagesFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F10EB287D41EF00EC0AE9 /* MyCustomMessagesFlowLayout.swift */; };
 		899F1109287D41EF00EC0AE9 /* APIDataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F10EC287D41EF00EC0AE9 /* APIDataTypes.swift */; };
 		899F110A287D41EF00EC0AE9 /* MySocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F10ED287D41EF00EC0AE9 /* MySocketManager.swift */; };
-		899F110B287D41EF00EC0AE9 /* CustomMessageSizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F10EE287D41EF00EC0AE9 /* CustomMessageSizeCalculator.swift */; };
 		899F110C287D41EF00EC0AE9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F10EF287D41EF00EC0AE9 /* Constants.swift */; };
 		899F110D287D41EF00EC0AE9 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F10F0287D41EF00EC0AE9 /* extensions.swift */; };
 		899F110E287D41EF00EC0AE9 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F10F2287D41EF00EC0AE9 /* MyCell.swift */; };
@@ -32,7 +30,6 @@
 		899F1118287D41EF00EC0AE9 /* QuickReplyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 899F10FD287D41EF00EC0AE9 /* QuickReplyTableViewCell.xib */; };
 		899F1119287D41EF00EC0AE9 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F10FE287D41EF00EC0AE9 /* MessageCell.swift */; };
 		899F111A287D41EF00EC0AE9 /* MyCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 899F10FF287D41EF00EC0AE9 /* MyCellTableViewCell.xib */; };
-		899F111B287D41EF00EC0AE9 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F1101287D41EF00EC0AE9 /* ChatViewController.swift */; };
 		899F111C287D41EF00EC0AE9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F1102287D41EF00EC0AE9 /* HomeViewController.swift */; };
 		899F111D287D41EF00EC0AE9 /* AlternativeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F1103287D41EF00EC0AE9 /* AlternativeViewController.swift */; };
 /* End PBXBuildFile section */
@@ -45,10 +42,8 @@
 		899F10E8287D41EF00EC0AE9 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		899F10E9287D41EF00EC0AE9 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		899F10EA287D41EF00EC0AE9 /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
-		899F10EB287D41EF00EC0AE9 /* MyCustomMessagesFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomMessagesFlowLayout.swift; sourceTree = "<group>"; };
 		899F10EC287D41EF00EC0AE9 /* APIDataTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIDataTypes.swift; sourceTree = "<group>"; };
 		899F10ED287D41EF00EC0AE9 /* MySocketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySocketManager.swift; sourceTree = "<group>"; };
-		899F10EE287D41EF00EC0AE9 /* CustomMessageSizeCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMessageSizeCalculator.swift; sourceTree = "<group>"; };
 		899F10EF287D41EF00EC0AE9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		899F10F0287D41EF00EC0AE9 /* extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
 		899F10F2287D41EF00EC0AE9 /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
@@ -64,7 +59,6 @@
 		899F10FD287D41EF00EC0AE9 /* QuickReplyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuickReplyTableViewCell.xib; sourceTree = "<group>"; };
 		899F10FE287D41EF00EC0AE9 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		899F10FF287D41EF00EC0AE9 /* MyCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCellTableViewCell.xib; sourceTree = "<group>"; };
-		899F1101287D41EF00EC0AE9 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		899F1102287D41EF00EC0AE9 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		899F1103287D41EF00EC0AE9 /* AlternativeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlternativeViewController.swift; sourceTree = "<group>"; };
 		9807241C225F784C9FC03FEE /* Pods-DirectLinkFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirectLinkFramework.release.xcconfig"; path = "Target Support Files/Pods-DirectLinkFramework/Pods-DirectLinkFramework.release.xcconfig"; sourceTree = "<group>"; };
@@ -123,10 +117,8 @@
 				899F10E8287D41EF00EC0AE9 /* Message.swift */,
 				899F10E9287D41EF00EC0AE9 /* Networking.swift */,
 				899F10EA287D41EF00EC0AE9 /* ApiManager.swift */,
-				899F10EB287D41EF00EC0AE9 /* MyCustomMessagesFlowLayout.swift */,
 				899F10EC287D41EF00EC0AE9 /* APIDataTypes.swift */,
 				899F10ED287D41EF00EC0AE9 /* MySocketManager.swift */,
-				899F10EE287D41EF00EC0AE9 /* CustomMessageSizeCalculator.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -154,7 +146,6 @@
 		899F1100287D41EF00EC0AE9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				899F1101287D41EF00EC0AE9 /* ChatViewController.swift */,
 				899F1102287D41EF00EC0AE9 /* HomeViewController.swift */,
 				899F1103287D41EF00EC0AE9 /* AlternativeViewController.swift */,
 			);
@@ -294,15 +285,12 @@
 				899F1119287D41EF00EC0AE9 /* MessageCell.swift in Sources */,
 				899F1114287D41EF00EC0AE9 /* QuickReplyTableViewCell.swift in Sources */,
 				899F1106287D41EF00EC0AE9 /* Networking.swift in Sources */,
-				899F1108287D41EF00EC0AE9 /* MyCustomMessagesFlowLayout.swift in Sources */,
 				899F111C287D41EF00EC0AE9 /* HomeViewController.swift in Sources */,
-				899F110B287D41EF00EC0AE9 /* CustomMessageSizeCalculator.swift in Sources */,
 				899F1104287D41EF00EC0AE9 /* SocketIOManager.swift in Sources */,
 				899F110E287D41EF00EC0AE9 /* MyCell.swift in Sources */,
 				899F110D287D41EF00EC0AE9 /* extensions.swift in Sources */,
 				899F110A287D41EF00EC0AE9 /* MySocketManager.swift in Sources */,
 				899F1109287D41EF00EC0AE9 /* APIDataTypes.swift in Sources */,
-				899F111B287D41EF00EC0AE9 /* ChatViewController.swift in Sources */,
 				899F110F287D41EF00EC0AE9 /* MyCellTableViewCell.swift in Sources */,
 				899F111D287D41EF00EC0AE9 /* AlternativeViewController.swift in Sources */,
 				899F1105287D41EF00EC0AE9 /* Message.swift in Sources */,

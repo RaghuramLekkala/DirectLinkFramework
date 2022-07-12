@@ -74,11 +74,11 @@ public class HomeViewController: UIViewController {
     
     
     public override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == K.homeSegue{
-            let destinationVC = segue.destination as! ChatViewController
-            destinationVC.senderNameValue = nameTextField.text
-            destinationVC.uuid = uuid
-        }
+//        if segue.identifier == K.homeSegue{
+//            let destinationVC = segue.destination as! ChatViewController
+//            destinationVC.senderNameValue = nameTextField.text
+//            destinationVC.uuid = uuid
+//        }
         if segue.identifier == K.alternateChatSegue{
             let destinationVC = segue.destination as! AlternativeViewController
             destinationVC.senderNameValue = nameTextField.text
