@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "This is a pod file to allow user to communicate with cosmopoliton chatbot."
   spec.description  = "This pod file is used to communicate with cosmopoliton chatbot which is located in Lasvegas."
   spec.homepage     = "https://github.com/RaghuramLekkala/DirectLinkFramework"
-  spec.license      = { :type => "MIT", :file => "LICENSE" }
+  spec.license      = { :type => "MIT", :file => "../LICENSE" }
   spec.author       = { "RAMraghuram" => "raghuram.lekkala.popcornapps@gmail.com" }
   spec.platform     = :ios, "13.0"
   spec.source       = { :git => "https://github.com/RaghuramLekkala/DirectLinkFramework.git", :tag => "#{spec.version}" }
